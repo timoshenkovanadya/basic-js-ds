@@ -7,14 +7,15 @@ const { NotImplementedError } = require('../extensions/index.js');
 * using Node from extensions
 */
 class BinarySearchTree {
-
+ tree = null; 
   root() {
     throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+
+   
   }
 
-  add(/* data */) {
-    throw new NotImplementedError('Not implemented');
+  add(data) {
+    // throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
   }
 
